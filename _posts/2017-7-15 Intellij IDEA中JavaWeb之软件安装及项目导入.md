@@ -47,5 +47,5 @@ category: javaweb
 
 8.可以去Run你的java 项目了
 
-转载请注明出处：[http://yanzefan.top/2017/07/15/IntellijIDEA中JavaWeb之软件安装及项目导入/](http://yanzefan.top/2017/07/15/IntellijIDEA中JavaWeb之软件安装及项目导入/)
+转载请注明出处：[http://www.yanzefan.top/2017/07/15/IntellijIDEA中JavaWeb之软件安装及项目导入/](http://www.yanzefan.top/2017/07/15/IntellijIDEA中JavaWeb之软件安装及项目导入/)
 
