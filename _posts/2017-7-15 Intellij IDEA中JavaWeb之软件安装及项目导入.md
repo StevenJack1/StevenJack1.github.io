@@ -5,7 +5,7 @@ description: IntellijIDEA中JavaWeb之软件安装及项目导入
 category: javaweb
 ---
 
-# Intellij IDEA中JavaWeb之软件安装及项目导入
+# IntellijIDEA中JavaWeb之软件安装及项目导入
 ## 准备
 - gradle压缩包
 - Intellij IDEA压缩包
