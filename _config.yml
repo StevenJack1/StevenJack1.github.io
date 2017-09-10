@@ -1,0 +1,105 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://StevenJack1.github.io
+date_format: "ordinal"
+title: Steven Jack
+subtitle: "Everything should be as simple as possible, but not too simple"
+description: "严泽凡的个人博客"
+keywords: 严泽凡
+favicon: /favicon.ico
+timezone: Asia/Tangshan
+encoding: "utf-8"
+source_code: https://github.com/StevenJack1/StevenJack1.github.com
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 严泽凡
+organization: wemakebug
+organization_url: https://github.com/wemakebug
+location: BeiJing, China
+email: zefanyan@outlook.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /blog/
+    label: Blog
+
+  -
+    href: /bookmark/
+    label: Bookmark
+
+  -
+    href: /about/
+    label: About
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: StevenJack1
+facebook_username: 严泽凡
+# weibo_username: gaoyuyue
+# zhihu_username: gaoyuyue
+# twitter_username: gaoyuyue
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, duoshuo, changyan
+# comments_provider: disqus
+# !!!重要!!! 请修改下面两个用户名为你自己申请的
+# !!!Important!!! Please modify usernames below to yours
+# duoshuo_username: arthurme
+# disqus_username: arthurme
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-102571833-1
+
+# ---------------- #
+#      Datas       #
+# ---------------- #
+skill_language_keywords: [Java, C Shap, Scala, C, C++]
+skill_web_app_keywords: [Spring ,Spring MVC ,JPA , Hibernate , Shiro ,Redis ,Spring Data, MySql, Play]
