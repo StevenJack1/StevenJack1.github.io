@@ -18,6 +18,10 @@ permalink: /blog/
 <span class="posts-list-meta">{{ post.date | date:"%Y-%m-%d" }}</span>
 <a class="posts-list-name" href="{{ post.url }}">{{ post.title }}</a>
 </li>
+<li class="posts-list-item">
+<span class="posts-list-meta">{{ post.date | date:"%Y-%m-%d" }}</span>
+<a class="posts-list-name" href="{{ post.url }}">{{ post.title }}</a>
+</li>
 {% endfor %}
 </ol>
 {% endfor %}
