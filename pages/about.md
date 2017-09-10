@@ -18,7 +18,7 @@ I'm 严 泽凡
 
 * GitHub：[@严泽凡](https://github.com/StevenJack1)
 * 博客：[{{ site.title }}]({{ site.url }})
-* Email：zefanyan@outlook.com
+* Email：18231550929@163.com
 
 ## Skill Keywords
 
