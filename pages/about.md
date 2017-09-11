@@ -16,7 +16,7 @@ I'm 严 泽凡
 
 ## 联系我
 
-* GitHub：[@严泽凡](https://github.com/StevenJack1)
+* GitHub：[@严泽凡1](https://github.com/StevenJack1)
 * 博客：[Steven Jack](http://www.yanzefan.top/)
 * Email：18231550929@163.com
 
