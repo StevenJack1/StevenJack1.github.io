@@ -103,3 +103,4 @@ google:
 # ---------------- #
 skill_language_keywords: [Java, C Shap, Scala, C, C++]
 skill_web_app_keywords: [Spring ,Spring MVC ,JPA , Hibernate , Shiro ,Redis ,Spring Data, MySql, Play]
+skill_bigdata_keywords: [Hadoop,Zookeeper,HBase,Hive,Pig,Spark,Strom,Flume,Kafka,Elasticsearch]
