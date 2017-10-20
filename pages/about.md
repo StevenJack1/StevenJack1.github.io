@@ -35,3 +35,10 @@ I'm 严 泽凡
     <button class="btn btn-outline" type="button">{{ keyword }}</button>
     {% endfor %}
 </div>
+
+#### Big Data Keywords
+<div class="btn-inline">
+    {% for keyword in site.skill_web_app_keywords %}
+    <button class="btn btn-outline" type="button">{{ keyword }}</button>
+    {% endfor %}
+</div>
