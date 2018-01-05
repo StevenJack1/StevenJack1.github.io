@@ -1,3 +1,11 @@
+---
+layout: post
+title: C语言中static的用法
+description: C语言中static的用法
+category: C语言
+---
+
+
 ## static 的用法：  
 	#include<iostream>
     using namespace std;
