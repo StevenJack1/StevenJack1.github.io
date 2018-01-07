@@ -9,16 +9,21 @@ category: Node.js
 ### 先在官网根据自己的系统来下载node.js，推荐下载.mis格式，不需要自己手动去配置环境。
 ### 在cmd中输入
     node -v
+    
 ### 如果成功，则显示nodejs的版本号,之后输入
     npm -v
+    
 ### 如果成功，则显示npm的版本号
+
 ### 这样nodejs就安装好了
 
 ## 第二步:全局安装所需的依赖包和工具包
 ### 在node安装好之后，在cmd框中，全局安装express，输入以下语句
     npm install -g express
+    
 ### 输入以下，查看安装是否成功
     express --version
+    
 ### 安装express-generator应用生成器
     npm install express-generator -g
 
