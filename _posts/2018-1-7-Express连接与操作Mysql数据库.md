@@ -11,13 +11,16 @@ category: Node.js
 ## 第二步：下载mysql依赖包
 ### 全局安装mysql的驱动包
     npm install -g mysql
+    
 ### 安装node supervisor工具包
     npm install -g supervisor 
+    
 ### supervisor工具包可以监视代码的变动，一旦代码有所改变就自动重启服务
 
 ## 第三步：在数据库中任意建一张表
 ### 我们需要在数据库中有一张表，以便于使用express去连接与操作
 ### 假设创建database为testDemo,表名为test
+
     create database testDemo;
 	CREATE TABLE `test` (
   		`id` int(11) NOT NULL AUTO_INCREMENT,
@@ -29,6 +32,7 @@ category: Node.js
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
 ### 添加几条数据
+
 	INSERT INTO books VALUES(null,'Java编程思想（第4版）','[美]埃克尔','机械工业出版社','9787111213826'); 
 	INSERT INTO books VALUES(null,'算法导论（原书第3版）','（美）Thomas H.Cormen，Charles E.Leiserson，Ronald L.Rivest，Clifford Stein','机械工业出版社','9787111407010'); 
 	INSERT INTO books VALUES(null,'编程珠玑（第2版·修订版）','[美]乔恩·本特利（Jon Bentley）','人民邮电出版社','9787115357618'); 
@@ -60,6 +64,7 @@ category: Node.js
 	});
 	
 	module.exports = router;
+	
 ### 项目根目录新建dao文件夹，并且在文件夹中新建bookDao.js,写入如下代码
 	var mysql = require('mysql');
 	var client = mysql.createConnection({
