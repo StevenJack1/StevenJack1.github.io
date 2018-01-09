@@ -27,6 +27,9 @@ category: Node.js
 ### 安装express-generator应用生成器
     npm install express-generator -g
 
+### 下载supervisor
+	npm install -g supervisor
+
 ## 第三步：安装WebStorm软件
 ### 直接在官网上根据自己系统的版本下载WebStorm软件。
 
@@ -43,4 +46,4 @@ category: Node.js
 > **Css Plai**n 选择默认就行
 
 ## 第五步：运行项目
-### 直接点击Run的按钮即可
+	supervisor ./bin/www                  // 在terminal 下输入以下语句
