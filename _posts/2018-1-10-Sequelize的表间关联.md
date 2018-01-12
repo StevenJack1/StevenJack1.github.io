@@ -1,9 +1,11 @@
 ---
-layout:post
-title:Sequelize的表间关联
-description:Sequelize的表间关联
-category:Node.js
+layout: post
+title: Sequelize的表间关联
+description: Sequelize的表间关联
+category: Node.js
 ---
+
+
 
 # 在Sequeelize模型中表间关联
 
