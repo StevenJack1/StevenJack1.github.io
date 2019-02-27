@@ -6,7 +6,7 @@ category: javaweb
 ---
 
 # 一、if标签
-    //使用 if 动态 sql 语句先进行判断，如果值为 null 或等于空字符串，我们就不进行此条件的判断，增加灵活性。
+### 使用 if 动态 sql 语句先进行判断，如果值为 null 或等于空字符串，我们就不进行此条件的判断，增加灵活性。
 	<select id="findUserList" parameterType="user" resultType="user">
 		select * from user  where 1=1
 		<if test="id!=null and id!=''">
